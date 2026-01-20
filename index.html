@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virustotal Simplifier - Whising Flavortown Build #1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Virustotal Simplifier!</h1>
+    <div class="controls">
+      <div class="control-item">
+        <label for="button-color">Button Color:</label>
+        <input type="color" id="button-color" value="#6366f1">
+      </div>
+      <div class="control-item">
+        <button id="theme-toggle">Switch to Dark Mode</button>
+      </div>
+    </div>
+
+    <section>
+      <h2>Scan any URL below:</h2>
+      <input type="text" id="url-input" placeholder="Enter a URL, (for eg., https://youtube.com)">
+      <button onclick="scanurl()">Start Scan(URL)</button>
+    </section>
+
+    <section>
+      <h2>Scan any file below:</h2>
+      <input type="file" id="file-input" placeholder="(for eg., totallyarealfile.jar)">
+      <button onclick="scanfile()">Start Scan(File)</button>
+    </section>
+
+    <div id="result"></div>
+
+    <div id="full-report-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModel()">&times;</span>
+        <h2>Click for Full Report</h2>
+        <div id="full-report-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
