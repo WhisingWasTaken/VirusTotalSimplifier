@@ -47,7 +47,6 @@ A **Sleek** and **modern** looking **VirusTotal Simplifier**, Quickly scan files
 - **⭐ Star the repository**
 
 ### LINKS
-Project Link: [[https://github.com/Whisingwastaken/virustotal-scanner](https://github.com/WhisingWasTaken/Flavortown-Projects/](https://github.com/WhisingWasTaken/VirusTotalSimplifier)
 Live Demo: https://virustotalsimplifier.netlify.app
 
 Built with ❤️ by Whising
